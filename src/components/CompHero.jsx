@@ -32,7 +32,7 @@ const CompHero = () => {
               </div>
             </div>
             {/* =========== */}
-            <div className="carousel-item min-vh-100">
+            <div className="carousel-item adjust-height">
               <div class="px-2 pt-2 my-1 text-center">
                 <div class="container px-5">
                   <img

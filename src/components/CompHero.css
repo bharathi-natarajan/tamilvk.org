@@ -36,3 +36,15 @@
   font-size: 2rem;
   color: #198754;
 }
+
+@media (max-width: 576px) {
+  .adjust-height {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .adjust-height {
+    height: 100vh;
+  }
+}
