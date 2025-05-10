@@ -1,4 +1,5 @@
 import './CompHero.css'
+import { heroText } from '../data'
 
 const CompHero = () => {
   return (
@@ -8,17 +9,15 @@ const CompHero = () => {
           <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
             <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
               <h1 class="display-4 fw-bold lh-2 text-body-emphasis  hero-font-resp">
-                எதிர்காலம் நோக்கி தமிழ்மொழியின் வளர்ச்சி !
+                {heroText[0].title1}
               </h1>
-              <p className="lead hero-font-p">
-                உலகறியும் தமிழ் மரபும் பண்பாடும்
-              </p>
+              <p className="lead hero-font-p">{heroText[0].title2}</p>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"></div>
             </div>
             <div class="col-lg-4  p-0 overflow-hidden">
               <img
                 class="img-fluid"
-                src="/images/Valluvar_ClearBg.png"
+                src={heroText[0].img}
                 alt="திருவள்ளுவர்"
                 width="500"
               />
