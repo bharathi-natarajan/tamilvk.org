@@ -1,0 +1,76 @@
+.social-icon {
+  padding: 0 6px;
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.social-icon.facebook:hover {
+  color: #1877f2;
+}
+
+.social-icon.instagram:hover {
+  color: #e1306c;
+}
+
+.social-icon.youtube:hover {
+  color: #ff0000;
+}
+
+.logo-responsive {
+  max-height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+
+.font-responsive {
+  font-family: 'Tiro Tamil', serif;
+  font-size: 1.8rem;
+  color: #940212;
+  white-space: nowrap;
+}
+
+.menu-item-font {
+  font-family: 'Pavanam';
+  font-size: 1.35rem;
+  color: #940212;
+}
+
+@media (max-width: 576px) {
+  .logo-responsive {
+    max-height: 36px;
+  }
+
+  .font-responsive {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .logo-responsive {
+    max-height: 40px;
+  }
+
+  .font-responsive {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .logo-responsive {
+    max-height: 44px;
+  }
+
+  .font-responsive {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo-responsive {
+    max-height: 70px;
+  }
+
+  .font-responsive {
+    font-size: 1.5rem;
+  }
+}
