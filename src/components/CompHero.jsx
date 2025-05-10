@@ -11,6 +11,19 @@ const CompHero = () => {
           data-bs-ride="carousel"
           style={{ borderRadius: '10px' }}
         >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="1"
+            ></button>
+          </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
