@@ -19,8 +19,8 @@ const CompNavbar = () => {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light py-2">
-      <div className="container-fluid">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light py-2">
+      <div className="container-fluid mx-5">
         <div className="d-flex align-items-center me-auto">
           <a className="navbar-brand p-0 me-2" href="/">
             <img
