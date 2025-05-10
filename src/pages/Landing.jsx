@@ -1,4 +1,10 @@
+import CompHero from '../components/CompHero'
+
 const Landing = () => {
-  return <div>Landing</div>
+  return (
+    <>
+      <CompHero />
+    </>
+  )
 }
 export default Landing

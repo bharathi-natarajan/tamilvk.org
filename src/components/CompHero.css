@@ -1,0 +1,24 @@
+.hero-font-resp {
+  font-family: 'Anek Tamil';
+  color: #940212 !important;
+}
+
+.hero-font-p {
+  font-family: 'Mukta Malar';
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.hero-section {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url('/images/valluvar_art.jpg');
+  background-size: 100% 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+}

@@ -19,10 +19,7 @@ const CompNavbar = () => {
   }
 
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-light bg-light py-2"
-      expanded={expanded}
-    >
+    <nav className="navbar navbar-expand-lg navbar-light bg-light py-2">
       <div className="container-fluid">
         <div className="d-flex align-items-center me-auto">
           <a className="navbar-brand p-0 me-2" href="/">
