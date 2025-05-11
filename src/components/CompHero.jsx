@@ -25,8 +25,8 @@ const CompHero = () => {
             ></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item active">
-              <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div className="carousel-item active adjust-height">
+              <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3  shadow-lg">
                 <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
                   <h1 className="display-4 fw-bold lh-2 text-body-emphasis  hero-font-resp">
                     {heroText[0].title1}
@@ -34,7 +34,7 @@ const CompHero = () => {
                   <p className="lead hero-font-p">{heroText[0].title2}</p>
                   <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"></div>
                 </div>
-                <div className="col-lg-4  p-0 overflow-hidden">
+                <div className="col-lg-4 d-none d-md-block p-0 overflow-hidden">
                   <img
                     className="img-fluid"
                     src={heroText[0].img}
