@@ -53,7 +53,7 @@ const CompNavbar = () => {
               if (subLinks?.length > 0) {
                 return (
                   <li key={id} className="nav-item dropdown">
-                    <Link
+                    <a
                       className="nav-link dropdown-toggle menu-item-font"
                       href="#"
                       role="button"
@@ -61,7 +61,7 @@ const CompNavbar = () => {
                       onClick={closeMenu}
                     >
                       {text}
-                    </Link>
+                    </a>
                     <ul className="dropdown-menu">
                       {subLinks.map((sub) => (
                         <li className="dropdown-item" key={sub.id}>
