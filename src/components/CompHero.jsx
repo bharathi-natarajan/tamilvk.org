@@ -4,7 +4,10 @@ import { heroText } from '../data'
 const CompHero = () => {
   return (
     <main>
-      <div className="container-fluid min-vh-100 pt-5">
+      <div
+        className="container-fluid min-vh-100 pt-5"
+        style={{ backgroundColor: '#f6f4f0' }}
+      >
         <div
           id="heroCarousel"
           className="container shadow-lg my-5 hero-section carousel slide"
