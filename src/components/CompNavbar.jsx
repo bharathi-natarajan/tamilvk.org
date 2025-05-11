@@ -58,7 +58,8 @@ const CompNavbar = () => {
                       href="#"
                       role="button"
                       data-bs-toggle="dropdown"
-                      onClick={closeMenu}
+                      // onClick={closeMenu}
+                      onClick={(e) => e.preventDefault()}
                     >
                       {text}
                     </a>
