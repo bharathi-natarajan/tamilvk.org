@@ -1,33 +1,19 @@
+body {
+  overflow-x: hidden;
+}
+
 .about-section {
-  /* margin-top: 4rem; */
+  margin-top: 5rem;
   background-color: #f6f4f0;
-  /* padding: 2rem 0; */
+  padding: 2rem 0;
+  overflow-x: hidden;
 }
 
 .img-txt {
-  display: flex;
-  gap: 2rem;
   margin: 2rem auto;
-  max-width: 1200px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 2rem;
-  flex-wrap: wrap;
 }
-
-.abt-img {
-  flex: 1 1 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* .abt-img img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  } */
 
 .abt-img img {
   width: 100%;
@@ -60,21 +46,11 @@
   }
 }
 
-.abt-img img:hover {
-  box-shadow: 0 0 25px #ffffff66;
-  transition: box-shadow 0.4s ease-in-out;
-}
-
-.abt-txt {
-  flex: 1 1 65%;
-  color: #fff;
-}
-
 .abt-txt h3 {
   font-family: 'Tiro Tamil', serif;
   font-size: 2rem;
   color: #198754;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .abt-txt h4 {
@@ -85,25 +61,40 @@
 
 .abt-txt p {
   font-family: 'Mukta Malar';
-  font-size: 1.3rem;
-  line-height: 1.8;
+  font-size: 1.4rem;
+  line-height: 1.5;
   color: #940212;
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-  .img-txt {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+
+@media (max-width: 576px) {
+  .about-section {
+    margin-top: 5rem;
+    padding: 0;
   }
 
-  .abt-img,
-  .abt-txt {
-    width: 90%;
+  .abt-txt h3 {
+    font-family: 'Tiro Tamil', serif;
+    font-size: 2rem;
+    color: #198754;
+    margin: 1rem 0;
   }
 
-  .abt-img img {
-    max-width: 80%;
+  .abt-txt h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #0703ff;
   }
+
+  .abt-txt p {
+    font-family: 'Mukta Malar';
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #940212;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
 }

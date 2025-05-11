@@ -10,7 +10,7 @@ const About = () => {
 
   return (
     <section className="about-section">
-      <div className="container mt-5 pt-5">
+      <div className="container ">
         <article className="row align-items-start img-txt" data-aos="fade-up">
           <div className="col-sm col-xl-4 col-lg-4 abt-img">
             <img src="/images/Valluvar_side.jpg" alt="Valluvar image" />
@@ -102,7 +102,7 @@ const About = () => {
             data-aos="fade-left"
           >
             <h3>திரு. ப. சிதம்பரம்</h3>
-            <h4>
+            <h4 style={{ lineHeight: '2rem' }}>
               நாடாளுமன்ற மாநிலங்கள் அவை உறுப்பினர்
               <br />
               மேனாள் ஒன்றிய நிதியமைச்சர்
