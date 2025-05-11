@@ -1,0 +1,35 @@
+/* .abt-txt h3 {
+  font-family: 'Tiro Tamil', serif;
+  font-size: 2rem;
+  color: #198754;
+  margin-bottom: 1rem;
+}
+
+.abt-txt h4 {
+  font-size: 1.2rem;
+  color: #0703ff;
+  margin-bottom: 1rem;
+} */
+
+p {
+  font-family: 'Mukta Malar';
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #940212;
+}
+
+.img-caption {
+  font-size: 0.9rem;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+.first-letter-emp p:first-of-type::first-letter {
+  float: left;
+  font-size: 2rem;
+  line-height: 1;
+  padding-right: 0.2rem;
+  color: #9c27b0;
+  font-family: 'Mukta Malar';
+}
