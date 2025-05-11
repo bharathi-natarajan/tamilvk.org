@@ -69,20 +69,21 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 1200px) {
   .hero-font2-title1 {
     font-family: 'Anek Tamil';
-    font-size: 24px;
+    font-size: 32px;
     color: #940212 !important;
   }
 
   .hero-font2-title2 {
     font-family: 'Mukta Malar';
-    font-weight: 200;
-    font-size: 25px !important;
+    font-weight: 300;
+    font-size: 28px !important;
   }
 
   .adjust-height {
-    height: 60vh;
+    padding-top: 30px;
+    height: 70vh;
   }
 }
