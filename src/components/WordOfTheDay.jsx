@@ -13,7 +13,7 @@ const WordOfTheDay = () => {
         </dir>
       </div>
       <div className="row m-auto p-5 shadow">
-        <div className="col-xl-3 col-lg-4 col-md-5 sign-up-tile bg-light">
+        <div className="col-xl-3 col-lg-4 col-md-5 mb-3 sign-up-tile bg-light">
           <h3 className="fs-5 text-success">சொல் வங்கி</h3>
           <div className="tile-bg tile-bg1">
             <img className="imgs" src="/images/wod.svg" alt="Word of the day" />
@@ -23,7 +23,7 @@ const WordOfTheDay = () => {
           <p className="px-3 text-primary">{words[num].meaning}</p>
           <p className="px-3 text-secondary">{words[num].ex}</p>
         </div>
-        <div className="col-xl-3 col-lg-4 col-md-5 sign-up-tile bg-light">
+        <div className="col-xl-3 col-lg-4 col-md-5 mb-3 sign-up-tile bg-light">
           <h3 className="fs-5 text-success">கலைக்களஞ்சியம்</h3>
 
           <div className="tile-bg tile-bg2">

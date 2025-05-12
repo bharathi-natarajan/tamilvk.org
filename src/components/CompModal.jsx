@@ -40,8 +40,7 @@ const CompModal = () => {
               className="modal-title text-primary"
               style={{ fontFamily: 'Mukta Malar' }}
             >
-              <span style={{ fontSize: '2rem' }}>50%</span> தள்ளுபடியில் தமிழ்
-              நூல்கள்
+              தகவல்
             </h5>
             <button
               type="button"
@@ -54,17 +53,8 @@ const CompModal = () => {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col">
-                  <img
-                    src="/images/book_sample.png"
-                    alt="book cover"
-                    className="img-thumbnail"
-                  />
-                </div>
-                <div className="col">
                   <h5 className="lh-3 text-success">
-                    தமிழ் வளர்ச்சிக் கழகத்தின் தமிழ்க் கலைக்களஞ்சியங்கள் உள்பட
-                    60-ம் மேற்பட்ட தமிழ் நூல்கள் 50 சதவீத சலுகை விலையில்
-                    கிடைக்கும்
+                    இணையதள சீரமைப்பு நடைபெறுகிறது
                   </h5>
                 </div>
               </div>
