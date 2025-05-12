@@ -4,6 +4,17 @@ import { heroText } from '../data'
 const CompHero = () => {
   return (
     <main>
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>50% தள்ளுபடி! </strong> தமிழ் வளர்ச்சிக் கழகத்தின் தமிழ்க்
+        கலைக்களஞ்சியங்கள் உள்பட 60-ம் மேற்பட்ட தமிழ் நூல்கள் 50 சதவீத சலுகை
+        விலையில் கிடைக்கும்
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
       <div
         className="container-fluid min-vh-100"
         style={{ backgroundColor: '#f6f4f0' }}
