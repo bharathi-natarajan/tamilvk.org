@@ -10,7 +10,7 @@ const CompNewsTicker = () => {
   }, [])
 
   return (
-    <div className="news-ticker-wrapper mt-5 pt-5 bg-info">
+    <div className="news-spacing news-ticker-wrapper mt-5 pt-5 bg-info">
       <div className="news-ticker">
         {news.map((item, index) => (
           <a

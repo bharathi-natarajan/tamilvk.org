@@ -46,3 +46,41 @@
     transform: translateX(-100%);
   }
 }
+
+@media (max-width: 576px) {
+  .news-spacing {
+    margin-top: 15px !important;
+  }
+
+  .ticker-img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+
+  .ticker-text {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+  .news-spacing {
+    margin-top: 30px !important;
+  }
+
+  .ticker-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+
+  .ticker-text {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+}
