@@ -6,9 +6,14 @@ const WordOfTheDay = () => {
   const num = 5
 
   return (
-    <div className="container-fluid sign-up-tile-area">
-      <div className="row gap-5 justify-content-center">
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 sign-up-tile bg-light">
+    <div className="container-fluid mb-4 sign-up-tile-area pb-2 ">
+      <div className="row m-auto pt-5 bg-secondary text-light">
+        <dir className="col">
+          <h2 className="fs-3 pb-3">நாள் ஒன்றுக்கு ஒரு சொல்</h2>
+        </dir>
+      </div>
+      <div className="row m-auto p-5 shadow">
+        <div className="col-xl-3 col-lg-4 col-md-5 sign-up-tile bg-light">
           <h3 className="fs-5 text-success">சொல் வங்கி</h3>
           <div className="tile-bg tile-bg1">
             <img className="imgs" src="/images/wod.svg" alt="Word of the day" />
@@ -18,7 +23,7 @@ const WordOfTheDay = () => {
           <p className="px-3 text-primary">{words[num].meaning}</p>
           <p className="px-3 text-secondary">{words[num].ex}</p>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 sign-up-tile bg-light">
+        <div className="col-xl-3 col-lg-4 col-md-5 sign-up-tile bg-light">
           <h3 className="fs-5 text-success">கலைக்களஞ்சியம்</h3>
 
           <div className="tile-bg tile-bg2">
@@ -46,7 +51,7 @@ const WordOfTheDay = () => {
           <p className="text-secondary">{encyclopedia[num].description}</p>
         </div>
 
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 sign-up-tile bg-light">
+        <div className="col-xl-3 col-lg-4 col-md-6 sign-up-tile bg-light">
           <h3 className="fs-5 text-success">தெரிந்தது எவ்வளவு?</h3>
           <div className="tile-bg tile-bg3">
             <img className="imgs" src="/images/quiz.svg" alt="Quiz" />
