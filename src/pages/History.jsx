@@ -12,7 +12,7 @@ const History = () => {
     })
   }, [])
   return (
-    <section className="container mt-5 pt-5">
+    <section className="container mt-5 pt-5" style={{ overflowX: 'hidden' }}>
       <div className="row">
         <div className="col">
           <h2
@@ -35,7 +35,8 @@ const History = () => {
         data-aos-delay="200"
       >
         <article className="col-xl-10 col-lg-10 col-sm-12 pb-5">
-          <p className="lh-5 fs-5 fs-sm-5 text-primary">
+          <img src="/images/1947.jpg" alt="" className="img-fluid" />
+          <p className="lh-5 fs-5 fs-sm-5 pt-3 text-primary">
             “கலைக்களஞ்சியம் என்னும் பொருள் பொதிந்த சொல்லைத் தமிழகத்திற்கு
             வழங்கிய பெருமை தமிழ் வளர்ச்சிக் கழகத்திற்கே உரியதாகும்”
           </p>

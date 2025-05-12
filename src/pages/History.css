@@ -33,3 +33,21 @@ p {
   color: #9c27b0;
   font-family: 'Mukta Malar';
 }
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-family: 'Mukta Malar';
+    font-weight: 100;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+}
