@@ -22,8 +22,8 @@ const CompHero = () => {
       {/* ============ */}
 
       <div
-        className="container-fluid min-vh-100"
-        style={{ backgroundColor: '#f6f4f0' }}
+        className="container-fluid"
+        style={{ backgroundColor: '#f6f4f0', marginBottom: '5rem' }}
       >
         <div
           id="heroCarousel"
