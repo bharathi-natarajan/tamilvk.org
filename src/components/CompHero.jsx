@@ -24,7 +24,7 @@ const CompHero = () => {
 
       <div
         className="container-fluid"
-        style={{ backgroundColor: '#f6f4f0', marginBottom: '5rem' }}
+        style={{ backgroundColor: '#f6f4f0', marginBottom: '2rem' }}
       >
         <div
           id="heroCarousel"
