@@ -10,3 +10,9 @@
   font-family: 'Pavanam';
   color: #04a8eb;
 }
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 200px;
+}
