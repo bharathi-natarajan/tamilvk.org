@@ -7,7 +7,7 @@ const WordOfTheDay = () => {
 
   return (
     <div className="container-fluid mb-4 sign-up-tile-area pb-2 ">
-      <div className="row m-auto pt-5 bg-secondary text-light">
+      <div className="row m-auto pt-5 bg-primary text-light">
         <dir className="col">
           <h2 className="fs-3 pb-3">நாள் ஒன்றுக்கு ஒரு சொல்</h2>
         </dir>

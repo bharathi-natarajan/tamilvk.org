@@ -14,6 +14,14 @@ export const navLinks = [
   { id: 4, href: '/news', text: 'நிகழ்வுகள்' },
 ]
 
+export const footerLinks = [
+  { id: 1, href: '/about', text: 'கழகம் பற்றி' },
+  { id: 2, href: '/history', text: 'வரலாறு' },
+  { id: 3, href: '/team', text: 'நிருவாகம்' },
+  { id: 4, href: '/books', text: 'வெளியீடுகள்' },
+  { id: 5, href: '/news', text: 'நிகழ்வுகள்' },
+]
+
 export const heroText = [
   {
     id: 1,
