@@ -1,12 +1,8 @@
 import React, { useState } from 'react'
+import { quiz } from '../data/wod'
 
 const WordGame = () => {
-  const question = {
-    word: 'ப____ம்',
-    answer: ['ர', 'த'],
-    options: ['ர', 'ண்', 'த', 'ன', 'ல', 'பெ'],
-  }
-
+  const question = quiz[1]
   const [selectedLetters, setSelectedLetters] = useState([])
   const [result, setResult] = useState('')
   const [disabled, setDisabled] = useState(false)
@@ -20,7 +16,7 @@ const WordGame = () => {
         const isCorrect =
           newSelection[0] === question.answer[0] &&
           newSelection[1] === question.answer[1]
-        setResult(isCorrect ? 'சரி!' : 'தவறு!')
+        setResult(isCorrect ? 'சரியான விடை!' : 'தவறு!')
         if (isCorrect) setDisabled(true)
       }
     }
@@ -59,7 +55,7 @@ const WordGame = () => {
       {result && (
         <div
           className={`fw-bold mb-3 ${
-            result === 'சரி!' ? 'text-success' : 'text-danger'
+            result === 'சரியான விடை!' ? 'text-success' : 'text-danger'
           }`}
         >
           {result}

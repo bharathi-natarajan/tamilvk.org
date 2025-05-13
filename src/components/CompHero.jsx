@@ -1,5 +1,6 @@
 import './CompHero.css'
 import { heroText } from '../data'
+import { Link } from 'react-router-dom'
 
 const CompHero = () => {
   return (
@@ -88,7 +89,12 @@ const CompHero = () => {
                       type="button"
                       className="btn btn-warning btn-lg px-4"
                     >
-                      மேலும் அறிய...
+                      <a
+                        className="text-decoration-none text-dark"
+                        href="/history"
+                      >
+                        மேலும் அறிய...
+                      </a>
                     </button>
                   </div>
                 </div>

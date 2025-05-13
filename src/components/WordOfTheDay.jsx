@@ -3,7 +3,7 @@ import './WordOfTheDay.css'
 import { words, encyclopedia } from '../data/wod'
 
 const WordOfTheDay = () => {
-  const num = 5
+  const num = 0
 
   return (
     <div className="container-fluid mb-4 sign-up-tile-area pb-2 ">

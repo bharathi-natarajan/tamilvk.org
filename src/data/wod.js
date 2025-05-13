@@ -153,3 +153,16 @@ export const encyclopedia = [
     image: 'https://images.unsplash.com/photo-1583337130417-3346a1c8c9d4',
   },
 ]
+
+export const quiz = [
+  {
+    word: 'ப____ம்',
+    answer: ['ர', 'த'],
+    options: ['ர', 'ண்', 'த', 'ன', 'ல', 'பெ'],
+  },
+  {
+    word: 'கோ__ட__',
+    answer: ['ட்', 'ம்'],
+    options: ['ர', 'ண்', 'ட்', 'ன', 'ல', 'ம்'],
+  },
+]
