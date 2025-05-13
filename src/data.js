@@ -46,48 +46,6 @@ export const teamText = {
 export const teamMenuItems = [
   {
     id: 1,
-    item: 'அறங்காவல் குழு',
-    members: [
-      {
-        img: '/images/Chidambaram.png',
-        name: 'திரு.ப.சிதம்பரம்',
-        title1: 'முன்னாள் ஒன்றிய அமைச்சர்',
-        title2: '',
-      },
-      {
-        img: '/images/rajendran.png',
-        name: 'முனைவர் ம. இராசேந்திரன்',
-        title1: '',
-        title2: '',
-      },
-      {
-        img: '/images/img-placeholder.jpg',
-        name: 'திரு. கிருஷ்ண சந்த் சோடியா',
-        title1: '',
-        title2: '',
-      },
-      {
-        img: '/images/img-placeholder.jpg',
-        name: 'பேரா. முனைவர் வ. ஜெயதேவன்',
-        title1: '',
-        title2: '',
-      },
-      {
-        img: '/images/img-placeholder.jpg',
-        name: 'திரு. முஸ்தபா',
-        title1: '',
-        title2: '',
-      },
-      {
-        img: '/images/img-placeholder.jpg',
-        name: 'திரு. நல்லி குப்புசாமி',
-        title1: '',
-        title2: '',
-      },
-    ],
-  },
-  {
-    id: 2,
     item: 'ஆட்சிக்குழு',
     members: [
       {
@@ -124,6 +82,48 @@ export const teamMenuItems = [
         img: '/images/img-placeholder.jpg',
         name: 'முனைவர் பெ. அர்த்தநாரீசுவரன்',
         title1: 'பதிப்பாசிரியர்',
+        title2: '',
+      },
+    ],
+  },
+  {
+    id: 2,
+    item: 'அறங்காவல் குழு',
+    members: [
+      {
+        img: '/images/Chidambaram.png',
+        name: 'திரு.ப.சிதம்பரம்',
+        title1: 'முன்னாள் ஒன்றிய அமைச்சர்',
+        title2: '',
+      },
+      {
+        img: '/images/rajendran.png',
+        name: 'முனைவர் ம. இராசேந்திரன்',
+        title1: '',
+        title2: '',
+      },
+      {
+        img: '/images/img-placeholder.jpg',
+        name: 'திரு. கிருஷ்ண சந்த் சோடியா',
+        title1: '',
+        title2: '',
+      },
+      {
+        img: '/images/img-placeholder.jpg',
+        name: 'பேரா. முனைவர் வ. ஜெயதேவன்',
+        title1: '',
+        title2: '',
+      },
+      {
+        img: '/images/img-placeholder.jpg',
+        name: 'திரு. முஸ்தபா',
+        title1: '',
+        title2: '',
+      },
+      {
+        img: '/images/img-placeholder.jpg',
+        name: 'திரு. நல்லி குப்புசாமி',
+        title1: '',
         title2: '',
       },
     ],
@@ -229,55 +229,46 @@ export const teamMenuItems = [
     item: 'உறுப்பினர்கள்',
     members: [
       {
-        img: '/images/img-placeholder.jpg',
         name: 'முனைவர் பெ. காளிராஜ்',
         title1: '',
         title2: '',
       },
       {
-        img: '/images/img-placeholder.jpg',
         name: 'பதிவாளர்',
         title1: 'சென்னைப் பல்கலைக்கழகம்',
         title2: '',
       },
       {
-        img: '/images/img-placeholder.jpg',
         name: 'திரு. தமிழ்க் கவிதாசன்',
         title1: '',
         title2: '',
       },
       {
-        img: '/images/img-placeholder.jpg',
         name: 'இராசரத்தினம் IAS',
         title1: 'தமிழ்நாடு அறக்கட்டளை தலைவர்',
         title2: '',
       },
       {
-        img: '/images/img-placeholder.jpg',
         name: 'சிவாலயம் திரு. மோகன்',
         title1: '',
         title2: '',
       },
       {
-        img: '/images/img-placeholder.jpg',
         name: 'முனைவர் ப. பாண்டியராஜா்',
         title1: '',
         title2: '',
       },
       {
-        img: '/images/img-placeholder.jpg',
         name: 'திருமதி மணிமேகலை கண்ணன்',
         title1: '',
         title2: '',
       },
       {
-        img: '/images/img-placeholder.jpg',
         name: 'முனைவர் வாசுகி கண்ணப்பன்',
         title1: '',
         title2: '',
       },
       {
-        img: '/images/img-placeholder.jpg',
         name: 'முனைவர் விசயலட்சுமி இராமசாமி',
         title1: '',
         title2: '',

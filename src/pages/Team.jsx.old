@@ -1,0 +1,31 @@
+import { useState } from 'react'
+import { teamMenuItems } from '../data'
+import TeamCard from './TeamCard'
+// import TeamCardSlider from './TeamCardSlider'
+
+const Team = () => {
+  const [active, setActive] = useState(teamMenuItems[0])
+
+  return (
+    <main className="container mt-5 pt-5">
+      <h2 className="text-center mb-4">நிருவாகக் குழு</h2>
+      <div className="text-center mb-4">
+        {teamMenuItems.map(({ id, item }) => (
+          <button
+            key={id}
+            onClick={() => setActive(teamMenuItems.find((t) => t.id === id))}
+            className={`btn mx-2 ${
+              active.id === id ? 'btn-success' : 'btn-outline-success'
+            }`}
+          >
+            {item}
+          </button>
+        ))}
+      </div>
+      {/* <TeamCardSlider team={active.members} teamTitle={active.item} /> */}
+      <TeamCard team={active.members} teamTitle={active.item} />
+    </main>
+  )
+}
+
+export default Team
