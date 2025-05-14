@@ -5,8 +5,10 @@ const Footer = () => {
     <div className="container">
       <footer className="py-5">
         <div className="row">
-          <div className="col-6 col-md-2 mb-3">
-            <h5>அமைப்பு</h5>
+          <div className="col-12 col-md-3 mb-3">
+            <h5 className="text-success" style={{ fontFamily: 'Tiro Tamil' }}>
+              அமைப்பு
+            </h5>
             <ul className="nav flex-column">
               {footerLinks.map(({ id, href, text }) => {
                 return (
@@ -20,13 +22,30 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-md-5 offset-md-1 mb-3">
+          <div className="col-12 col-md-3 mb-3">
+            <h5 className="text-success" style={{ fontFamily: 'Tiro Tamil' }}>
+              முகவரி
+            </h5>
+            <p className="m-0 p-0 text-dark">தமிழ் வளர்ச்சிக் கழகம்</p>
+            <p className="m-0 p-0 text-muted">மணிக்கூண்டு கட்டடம்</p>{' '}
+            <p className="m-0 p-0 text-muted"> சென்னைப் பல்கலைக்கழக வளாகம்</p>
+            <p className="m-0 p-0 text-muted">சென்னை - 600 005</p>
+            <p className="m-0 p-0 text-muted">+919444651203</p>
+            <p className="m-0 p-0 text-muted">
+              tamilvalarchikazhagam2024@gmail.com
+            </p>
+          </div>
+
+          <div className="col-12 col-md-5 offset-md-1 mb-3">
             <form>
-              <h5>
+              <h5
+                className="text-success text-dark fs-6"
+                style={{ fontFamily: 'Tiro Tamil' }}
+              >
                 எங்கள் செய்தி மடலுக்கு உங்கள் மின்னஞ்சல் முகவரியை பதிவு
                 செய்யுங்கள்
               </h5>
-              <p>
+              <p className="text-muted">
                 நிகழ்ச்சிகள் மற்றும் புதிய செயல்பாடுகள் பற்றி அறிந்து
                 கொள்ளுங்கள்
               </p>
