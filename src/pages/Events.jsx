@@ -7,13 +7,13 @@ const Events = () => {
 
       {events.map((event) => (
         <div key={event.id} className="card mb-5 shadow-lg border-0">
-          <div className="row g-0">
+          <div className="row g-0 justify-content-center">
             {/* Event Image */}
             {event.img && (
-              <div className="col-md-4 p-3">
+              <div className="col-xl-4 col-md-8 p-3">
                 <img
                   src={event.img}
-                  className="img-thumbnail rounded-start h-100 object-fit-cover"
+                  className="img-fluid rounded h-100 object-fit-cover"
                   alt="Event"
                   style={{ objectFit: 'cover' }}
                 />
