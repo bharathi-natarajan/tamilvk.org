@@ -11,7 +11,7 @@ export const navLinks = [
     ],
   },
   { id: 3, href: '/books', text: 'வெளியீடுகள்' },
-  { id: 4, href: '/news', text: 'நிகழ்வுகள்' },
+  { id: 4, href: '/events', text: 'நிகழ்வுகள்' },
 ]
 
 export const footerLinks = [
@@ -19,7 +19,7 @@ export const footerLinks = [
   { id: 2, href: '/history', text: 'வரலாறு' },
   { id: 3, href: '/team', text: 'நிருவாகம்' },
   { id: 4, href: '/books', text: 'வெளியீடுகள்' },
-  { id: 5, href: '/news', text: 'நிகழ்வுகள்' },
+  { id: 5, href: '/Events', text: 'நிகழ்வுகள்' },
 ]
 
 export const heroText = [
@@ -83,14 +83,14 @@ export const teamMenuItems = [
       {
         img: '/images/img-placeholder.jpg',
         name: 'முனைவர் சா. சரவணன்',
-        title1: 'செயலாளர்',
+        title1: 'துணைத்தலைவர்',
         title2: '',
       },
       {
         img: '/images/img-placeholder.jpg',
         name: 'முனைவர் பெ. அர்த்தநாரீசுவரன்',
-        title1: 'பதிப்பாசிரியர்',
-        title2: '',
+        title1: 'செயலாளர்',
+        title2: 'பதிப்பாசியர்',
       },
     ],
   },

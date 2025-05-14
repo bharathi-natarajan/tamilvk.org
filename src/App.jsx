@@ -3,7 +3,7 @@ import {
   Landing,
   About,
   Books,
-  News,
+  Events,
   History,
   HomeLayout,
   Team,
@@ -32,8 +32,8 @@ const router = createBrowserRouter([
         element: <Team />,
       },
       {
-        path: 'news',
-        element: <News />,
+        path: 'events',
+        element: <Events />,
       },
       {
         path: 'books',

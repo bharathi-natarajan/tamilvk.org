@@ -9,7 +9,7 @@ export default function Books() {
   const selectedBook = selectedGroup.books[selectedBookIndex]
 
   return (
-    <div className="container mt-5 py-5">
+    <div className="container mt-2 py-5">
       <div className="row py-5 text-center text-primary">
         <div className="col">
           <h2>தமிழ் வளர்ச்சிக் கழக வெளியீடுகள்</h2>
