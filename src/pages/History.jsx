@@ -256,7 +256,7 @@ const History = () => {
             உழைத்தார். இவ் உழைப்பின் பயனாகக் கலைக்களஞ்சியத் தொகுதிகள்
             பின்வருமாறு வெளிவந்தன:
           </p>
-          <div>
+          <div className="mb-3 pb-3">
             <table className="table table-hover">
               <thead>
                 <tr>
