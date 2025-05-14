@@ -13,13 +13,7 @@ const CompNewsTicker = () => {
     <div className="news-spacing news-ticker-wrapper mt-5 pt-5 bg-info">
       <div className="news-ticker">
         {news.map((item, index) => (
-          <a
-            href={item.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ticker-item"
-            key={index}
-          >
+          <a href="/news" className="ticker-item" key={index}>
             <img src={item.image} alt="News" className="ticker-img" />
             <span className="ticker-text">{item.text}</span>
           </a>
